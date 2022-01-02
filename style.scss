@@ -1,0 +1,67 @@
+.banner-section {
+  background-image: url("./assets/Banner_mage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 50px 100px;
+  position: relative;
+
+  .banner-text {
+    color: #ffffff;
+    margin-top: 40px;
+    text-align: left;
+    .main-heading {
+      font-family: Titillium;
+      font-size: 31px;
+      letter-spacing: 1.28px;
+      line-height: 40px;
+      width: 622px;
+      font-weight: 500;
+      margin-bottom: 0;
+    }
+    .sub-heading {
+      font-family: StagSans;
+      font-size: 25px;
+      letter-spacing: 3.59px;
+      line-height: 34px;
+      width: 599px;
+      opacity: 0.5;
+    }
+  }
+  .appoinment-button {
+    background-color: #dd5a6a;
+    margin-top: 10px;
+    border-radius: 3.2px;
+    width: 186px;
+    height: 45px;
+    font-family: Arial;
+    font-size: 14.4px;
+    line-height: 17px;
+    &:hover {
+      background-color: #dd5a6ad1;
+    }
+  }
+
+  //   Form Section
+  .form-section {
+    background-color: #ffffff;
+    box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
+    width: 339px;
+    height: 492px;
+    .enquire-now {
+      color: #213559;
+      font-family: StagSans;
+      font-size: 20.08px;
+      line-height: 24px;
+      width: 127px;
+      text-align: left;
+      font-weight: 600;
+    }
+    .form-field {
+      border: 0.87px solid #d0d0d0;
+      width: 350px;
+      height: 42px;
+    }
+  }
+}
