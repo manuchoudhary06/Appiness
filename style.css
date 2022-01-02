@@ -10,7 +10,7 @@
 
 .banner-section .banner-text {
   color: #ffffff;
-  margin-top: 40px;
+  margin-top: 80px;
   text-align: left;
 }
 
@@ -35,7 +35,6 @@
 
 .banner-section .appoinment-button {
   background-color: #dd5a6a;
-  margin-top: 10px;
   border-radius: 3.2px;
   width: 186px;
   height: 45px;
@@ -53,7 +52,8 @@
   -webkit-box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
           box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
   width: 339px;
-  height: 492px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .banner-section .form-section .enquire-now {
@@ -70,5 +70,141 @@
   border: 0.87px solid #d0d0d0;
   width: 350px;
   height: 42px;
+}
+
+.banner-section .form-section .submit-button {
+  background-color: #dd5a6a;
+  width: 111px;
+  height: 44px;
+}
+
+.banner-section .form-section .submit-button:hover {
+  background-color: #dd5a6ad1;
+}
+
+.section {
+  padding: 50px 100px;
+}
+
+.section .group3 {
+  width: 451px;
+  height: 451px;
+}
+
+.section .heading {
+  background: #2ec4b8;
+  background: radial-gradient(circle, #2ec4b8 -35%, #6078ea 35%, #2ec4b8 100%);
+  border-radius: 4px;
+  width: 586px;
+  padding: 15px 20px;
+  margin-bottom: 50px;
+}
+
+.section .heading .heading-text {
+  color: #ffffff;
+  font-family: StagSans;
+  font-size: 18px;
+  line-height: 26px;
+  width: 545px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.section .listItems {
+  color: #000000;
+  font-family: StagSans;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 60px;
+}
+
+.doctors .section-heading,
+.doctors .column-heading {
+  color: #22b78e;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+  font-weight: 600;
+}
+
+.doctors .doctors-container {
+  font-family: StagSans;
+}
+
+.doctors .doctors-container .column-1 {
+  background-color: #f9f9ff;
+  border-radius: 4px;
+}
+
+.doctors .doctors-container .column-1 .column-heading {
+  font-size: 24px;
+  letter-spacing: 0.99px;
+}
+
+.doctors .doctors-container .column-1 .doctor-card .doctor-name,
+.doctors .doctors-container .column-1 .doctor-card .doctor-degree {
+  color: #1d5aa6;
+  font-size: 22px;
+  letter-spacing: 1.76px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.doctors .doctors-container .column-1 .doctor-card .doctor-degree {
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  line-height: 20px;
+}
+
+.doctors .doctors-container .column-1 .doctor-card .spacer {
+  border: 1px solid #22b78e;
+  width: 37px;
+  height: 1px;
+  margin: 0 auto;
+}
+
+.doctors .doctors-container .column-1 .doctor-card .doctor-desc {
+  color: #000000;
+  font-size: 15px;
+  line-height: 20px;
+  width: 423px;
+  margin: 0 auto;
+}
+
+.doctors .doctors-container .column-1 .doctor-card .know-more {
+  background: #2ec4b8;
+  background: radial-gradient(circle, #2ec4b8 -35%, #6078ea 35%, #2ec4b8 100%);
+  border-radius: 4px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 18px;
+}
+
+.section {
+  font-family: StagSans;
+}
+
+.section .bone-heading {
+  color: #22b78e;
+  font-size: 31px;
+  letter-spacing: 1.28px;
+  line-height: 44px;
+}
+
+.section .bone-listing {
+  list-style: none;
+  padding-left: 0;
+}
+
+.section .bone-listing .list-image {
+  margin-right: 10px;
+}
+
+.section .bone-listing li {
+  color: #000000;
+  font-size: 14px;
+  line-height: 39px;
+  width: 1068px;
 }
 /*# sourceMappingURL=style.css.map */

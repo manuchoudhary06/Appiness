@@ -38,13 +38,16 @@
               <p class="sub-heading">Haematology | Oncology | Immunology</p>
             </div>
             <!-- appontment button -->
-            <button type="button" class="btn btn-secondary appoinment-button">
+            <button
+              type="button"
+              class="btn btn-secondary appoinment-button mt-3"
+            >
               Book An Appointment
             </button>
           </div>
           <div class="col-md-4 form-section">
             <form action="/">
-              <p class="enquire-now">Enquire now</p>
+              <p class="enquire-now mb-4">Enquire now</p>
               <div class="form-group">
                 <input
                   type="text"
@@ -68,7 +71,7 @@
                 placeholder="Phone number"
               />
               <textarea
-                class="form-control mt-3"
+                class="form-control mt-3 mb-3"
                 id="message"
                 rows="5"
                 placeholder="Your Message"
@@ -77,16 +80,69 @@
                 class="g-recaptcha"
                 data-sitekey="6LdDIuYdAAAAAM8KBC1nIuLddsMZSugfuklWqfYo"
               ></div>
-              <button type="submit" class="btn btn-primary mt-3">Submit</button>
+              <button type="submit" class="btn btn-primary mt-3 submit-button">
+                Submit
+              </button>
             </form>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- jQuery CDN -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!-- Bootstrap and Popper JS -->
+    <!-- Section 2 -->
+
+    <div class="container section">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./assets/Group 3.png" alt="Bone Marrow" class="group3" />
+        </div>
+        <div class="col-md-6">
+          <div class="heading">
+            <p class="heading-text">
+              Bone Marrow Transplant (BMT) better known as haematopoietic stem
+              cell transplant(HSCT) as bone marrow cells are transplanted
+            </p>
+          </div>
+          <div class="section2list"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Doctors -->
+
+    <div class="container section doctors">
+      <h3 class="section-heading mb-4">Doctors</h3>
+      <div class="doctors-container"></div>
+    </div>
+
+    <!-- Bone Marrow Section -->
+
+    <div class="container section">
+      <div class="container">
+        <div class="row">
+          <h2 class="bone-heading">
+            What are the types of Bone Marrow Transplant?
+          </h2>
+          <ul class="bone-listing mt-5">
+            <li>
+              <img
+                src="./assets/list-icon.png"
+                alt="list-icon"
+                class="list-image"
+              />Autologous Bone Marrow Transplant - Marrow cells are collected
+              from the patient’s own body and transfused back after high dose
+              chemotherapy.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
@@ -97,9 +153,8 @@
       integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="./app.js"></script>
     <!-- Captacha Script -->
     <script async src="https://www.google.com/recaptcha/api.js"></script>
-    <!-- Custom jQuery  -->
-    <script src="app.js"></script>
   </body>
 </html>

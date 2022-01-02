@@ -1,15 +1,31 @@
+// Variables
+
+$button-color: #dd5a6a;
+$cutom-padding: 50px 100px;
+
+@mixin buttonColor() {
+  background: rgb(46, 196, 184);
+  background: radial-gradient(
+    circle,
+    rgba(46, 196, 184, 1) -35%,
+    rgba(96, 120, 234, 1) 35%,
+    rgba(46, 196, 184, 1) 100%
+  );
+  border-radius: 4px;
+}
+
 .banner-section {
   background-image: url("./assets/Banner_mage.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  padding: 50px 100px;
+  padding: $cutom-padding;
   position: relative;
 
   .banner-text {
     color: #ffffff;
-    margin-top: 40px;
+    margin-top: 80px;
     text-align: left;
     .main-heading {
       font-family: Titillium;
@@ -30,8 +46,7 @@
     }
   }
   .appoinment-button {
-    background-color: #dd5a6a;
-    margin-top: 10px;
+    background-color: $button-color;
     border-radius: 3.2px;
     width: 186px;
     height: 45px;
@@ -48,7 +63,8 @@
     background-color: #ffffff;
     box-shadow: -4px 2px 13px 0 rgba(85, 95, 126, 0.18);
     width: 339px;
-    height: 492px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     .enquire-now {
       color: #213559;
       font-family: StagSans;
@@ -62,6 +78,130 @@
       border: 0.87px solid #d0d0d0;
       width: 350px;
       height: 42px;
+    }
+    .submit-button {
+      background-color: $button-color;
+      width: 111px;
+      height: 44px;
+      &:hover {
+        background-color: #dd5a6ad1;
+      }
+    }
+  }
+}
+
+// Section 2
+
+.section {
+  padding: $cutom-padding;
+  .group3 {
+    width: 451px;
+    height: 451px;
+  }
+  .heading {
+    @include buttonColor();
+    width: 586px;
+    padding: 15px 20px;
+    margin-bottom: 50px;
+    .heading-text {
+      color: #ffffff;
+      font-family: StagSans;
+      font-size: 18px;
+      line-height: 26px;
+      width: 545px;
+      text-align: left;
+      margin-bottom: 0;
+    }
+  }
+  .listItems {
+    color: #000000;
+    font-family: StagSans;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 60px;
+  }
+}
+
+// Section 3 Doctors
+
+.doctors {
+  .section-heading,
+  .column-heading {
+    color: #22b78e;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 44px;
+    font-weight: 600;
+  }
+  .doctors-container {
+    font-family: StagSans;
+    .column-1 {
+      background-color: #f9f9ff;
+      border-radius: 4px;
+      .column-heading {
+        font-size: 24px;
+        letter-spacing: 0.99px;
+      }
+      .doctor-card {
+        .doctor-name,
+        .doctor-degree {
+          color: #1d5aa6;
+          font-size: 22px;
+          letter-spacing: 1.76px;
+          line-height: 26px;
+          font-weight: 600;
+        }
+        .doctor-degree {
+          font-size: 15px;
+          letter-spacing: 1.2px;
+          line-height: 20px;
+        }
+        .spacer {
+          border: 1px solid #22b78e;
+          width: 37px;
+          height: 1px;
+          margin: 0 auto;
+        }
+        .doctor-desc {
+          color: #000000;
+          font-size: 15px;
+          line-height: 20px;
+          width: 423px;
+          margin: 0 auto;
+        }
+        .know-more {
+          @include buttonColor();
+          font-size: 15px;
+          letter-spacing: 1px;
+          line-height: 18px;
+        }
+      }
+    }
+  }
+}
+
+// Bone Headings
+
+.section {
+  font-family: StagSans;
+  .bone-heading {
+    color: #22b78e;
+    font-size: 31px;
+    letter-spacing: 1.28px;
+    line-height: 44px;
+  }
+  .bone-listing {
+    list-style: none;
+    padding-left: 0;
+    .list-image {
+      margin-right: 10px;
+    }
+    li {
+      color: #000000;
+      font-size: 14px;
+      line-height: 39px;
+      width: 1068px;
     }
   }
 }
