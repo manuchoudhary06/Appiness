@@ -319,4 +319,50 @@
 .owl-carousel .owl-item img {
   width: 45px !important;
 }
+
+@media screen and (max-width: 768px) {
+  .banner-section {
+    padding: 0px;
+  }
+  .banner-section .banner-text .main-heading {
+    width: 100%;
+  }
+  .banner-section .banner-text .sub-heading {
+    width: 100%;
+  }
+  .banner-section .appoinment-button {
+    margin-bottom: 30px;
+  }
+  .banner-section .form-section {
+    width: 100%;
+    margin: 20px 10px;
+  }
+  .section .group3 {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .section .heading {
+    width: 100%;
+  }
+  .section .bone-listing li {
+    width: 100%;
+  }
+  .doctors .doctors-container .column-1 .doctor-card .doctor-desc {
+    width: 100%;
+  }
+  .immuneSigns {
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+  }
+  .immuneSigns .rectangle {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .immuneSigns .rectangle .immune-desc {
+    width: 100%;
+  }
+  .dropdowns .main-link .link-text .dropdown-list li {
+    width: 100%;
+  }
+}
 /*# sourceMappingURL=style.css.map */

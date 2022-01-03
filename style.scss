@@ -309,3 +309,76 @@ $cutom-padding: 50px 100px;
 .owl-carousel .owl-item img {
   width: 45px !important;
 }
+
+// Media Query
+
+@media screen and (max-width: 768px) {
+  .banner-section {
+    padding: 0px;
+    .banner-text {
+      .main-heading {
+        width: 100%;
+      }
+      .sub-heading {
+        width: 100%;
+      }
+    }
+    .appoinment-button {
+      margin-bottom: 30px;
+    }
+    .form-section {
+      width: 100%;
+      margin: 20px 10px;
+    }
+  }
+
+  .section {
+    .group3 {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .heading {
+      width: 100%;
+    }
+    .bone-listing {
+      li {
+        width: 100%;
+      }
+    }
+  }
+
+  .doctors {
+    .doctors-container {
+      .column-1 {
+        .doctor-card {
+          .doctor-desc {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .immuneSigns {
+    flex-wrap: wrap !important;
+    .rectangle {
+      width: 100%;
+      margin-bottom: 10px;
+      .immune-desc {
+        width: 100%;
+      }
+    }
+  }
+
+  .dropdowns {
+    .main-link {
+      .link-text {
+        .dropdown-list {
+          li {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
