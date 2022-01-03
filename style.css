@@ -207,4 +207,116 @@
   line-height: 39px;
   width: 1068px;
 }
+
+.immuneSigns {
+  -ms-flex-wrap: nowrap !important;
+      flex-wrap: nowrap !important;
+}
+
+.immuneSigns .rectangle {
+  background-color: #ffffff;
+  border: 1px solid #e5eaff;
+  border-radius: 4px;
+  -webkit-box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+          box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+  width: 255px;
+  padding: 20px;
+}
+
+.immuneSigns .rectangle .icon {
+  width: 30px;
+  height: 41px;
+}
+
+.immuneSigns .rectangle .immune-desc {
+  color: #000000;
+  font-family: StagSans;
+  font-size: 14px;
+  line-height: 21px;
+  width: 198px;
+  text-align: left;
+}
+
+.dropdowns .main-link .link-header {
+  width: 100%;
+  cursor: pointer;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.dropdowns .main-link .link-header .header-text {
+  color: #1d5aa6;
+  font-family: StagSans;
+  font-size: 20px;
+  letter-spacing: 1.6px;
+  line-height: 22px;
+  width: 797px;
+  text-align: left;
+}
+
+.dropdowns .main-link .link-header .fa-caret-down {
+  font-size: 20px;
+  color: #1d5aa6;
+}
+
+.dropdowns .main-link .link-text {
+  display: none;
+}
+
+.dropdowns .main-link .link-text .dropdown-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.dropdowns .main-link .link-text .dropdown-list li {
+  color: #000000;
+  font-family: StagSans;
+  font-size: 14px;
+  line-height: 30px;
+  width: 1052px;
+  text-align: left;
+}
+
+.dropdowns .main-link .active {
+  display: block;
+}
+
+.testimonials .testimonial-desc {
+  font-size: 15px;
+  line-height: 21px;
+  width: 609px;
+  text-align: left;
+}
+
+.testimonials .testimonial {
+  background-color: #ffffff;
+  border-radius: 4px;
+  -webkit-box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+          box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+  width: 517px;
+  padding: 20px;
+}
+
+.testimonials .testimonial .user-desc .user-name {
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.testimonials .testimonial .user-desc .user-designation {
+  font-size: 14px;
+  line-height: 17px;
+  opacity: 0.5;
+}
+
+.testimonials .testimonial .testimoni-description {
+  font-size: 15px;
+  font-style: italic;
+  line-height: 21px;
+  width: 410px;
+}
+
+.owl-carousel .owl-item img {
+  width: 45px !important;
+}
 /*# sourceMappingURL=style.css.map */

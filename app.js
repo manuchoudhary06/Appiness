@@ -36,4 +36,35 @@ $(document).ready(function () {
   for (let i = 0; i < 6; i++) {
     $(".bone-listing").append(list);
   }
+
+  // Dropdowns
+
+  $(".link-header").click(function () {
+    $(this).siblings(".link-text").toggleClass("active");
+  });
+});
+
+$(document).ready(function () {
+  $(".owl-carousel").owlCarousel({
+    autoplay: true,
+    stagePadding: 70,
+    autoplayTimeout: 5000,
+    loop: true,
+    margin: 10,
+    responsiveClass: true,
+    dots: false,
+    nav: false,
+
+    responsive: {
+      0: {
+        items: 1,
+      },
+      600: {
+        items: 1,
+      },
+      1000: {
+        items: 2,
+      },
+    },
+  });
 });

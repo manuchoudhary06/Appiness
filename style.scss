@@ -205,3 +205,107 @@ $cutom-padding: 50px 100px;
     }
   }
 }
+
+.immuneSigns {
+  flex-wrap: nowrap !important;
+  .rectangle {
+    background-color: #ffffff;
+    border: 1px solid #e5eaff;
+    border-radius: 4px;
+    box-shadow: 3px 5px 29px 0 rgba(187, 165, 228, 0.1);
+    width: 255px;
+    padding: 20px;
+    .icon {
+      width: 30px;
+      height: 41px;
+    }
+    .immune-desc {
+      color: #000000;
+      font-family: StagSans;
+      font-size: 14px;
+      line-height: 21px;
+      width: 198px;
+      text-align: left;
+    }
+  }
+}
+
+.dropdowns {
+  .main-link {
+    .link-header {
+      width: 100%;
+      cursor: pointer;
+      .header-text {
+        color: #1d5aa6;
+        font-family: StagSans;
+        font-size: 20px;
+        letter-spacing: 1.6px;
+        line-height: 22px;
+        width: 797px;
+        text-align: left;
+      }
+      .fa-caret-down {
+        font-size: 20px;
+        color: #1d5aa6;
+      }
+      padding-bottom: 10px;
+      border-bottom: 1px solid #cdcdcd;
+    }
+    .link-text {
+      display: none;
+      .dropdown-list {
+        list-style: none;
+        padding-left: 0;
+        li {
+          color: #000000;
+          font-family: StagSans;
+          font-size: 14px;
+          line-height: 30px;
+          width: 1052px;
+          text-align: left;
+        }
+      }
+    }
+    .active {
+      display: block;
+    }
+  }
+}
+
+.testimonials {
+  .testimonial-desc {
+    font-size: 15px;
+    line-height: 21px;
+    width: 609px;
+    text-align: left;
+  }
+  .testimonial {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 9px 8px 27px 0 rgba(0, 0, 0, 0.04);
+    width: 517px;
+    padding: 20px;
+    .user-desc {
+      .user-name {
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: 600;
+      }
+      .user-designation {
+        font-size: 14px;
+        line-height: 17px;
+        opacity: 0.5;
+      }
+    }
+    .testimoni-description {
+      font-size: 15px;
+      font-style: italic;
+      line-height: 21px;
+      width: 410px;
+    }
+  }
+}
+
+.owl-carousel .owl-item img {
+  width: 45px !important;
+}
